@@ -7,6 +7,6 @@ gspread
 oauth2client
 apscheduler>=3.3.0
 Flask
-gunicorn
+gunicorn==20.0.4
 fuzzywuzzy
 python-Levenshtein
