@@ -132,8 +132,4 @@ def webhook():
 
 # Checks whether the message sender is a bot
 def sender_is_bot(message):
-	if message['sender_type'] == "bot"
-        isBot = True
-    else:
-        isBot = False
-    return isBot
+	return message['sender_type'] == "bot"
